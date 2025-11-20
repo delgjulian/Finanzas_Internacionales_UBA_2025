@@ -1,0 +1,50 @@
+# ==============================================
+# .gitignore for Stata Projects (Optimized)
+# Avoids tracking logs, SMCL output, autosaves,
+# temporary files, compiled graphs, and large junk
+# ==============================================
+
+# ---- STATA LOGS & OUTPUT ----
+*.log
+*.smcl
+*.stpr
+*.stsem
+*.stir
+*.stmd
+
+# ---- STATA GRAPHICS ----
+*.gph
+
+# ---- TEMPORARY / BACKUP FILES ----
+*.tmp
+*.temp
+*.old
+*~
+
+# ---- DATA FILES TO IGNORE (OPTIONAL) ----
+# Only ignore if you don't want heavy files tracked.
+# Remove the '#' to activate:
+# *.dta
+
+# ---- SYSTEM / OS FILES ----
+.DS_Store
+Thumbs.db
+
+# ---- LATEX (if used) ----
+*.aux
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# ---- PYTHON/R NOTEBOOKS (if any) ----
+.ipynb_checkpoints/
+
+# ---- VS CODE / EDITOR SETTINGS ----
+.vscode/
+.idea/
